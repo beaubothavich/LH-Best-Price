@@ -1,0 +1,652 @@
+@include max-screen(2560px)
+{
+	.visi {
+        display: none;
+    }
+    .visi2 {
+        display: none;
+    }
+    .service-left {
+		padding-left: 10%;
+	}
+}
+//1440
+@include max-screen(1366px)
+{
+
+}
+
+@include max-screen(1250px) {
+
+}
+
+@include max-screen(1270px) {
+    .visi2 {
+        display: block;
+    }
+    .up2 {
+        margin-top: -31px;
+    }
+    .service {
+    .service-text-1 {
+        padding: 5px;
+        position: absolute;
+        right: 50px;
+        //bottom: 122px;
+        span {
+            font-size:165%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+
+        //margin-left: 7px;
+    }
+
+    .service-text-2 {
+        padding: 5px;
+        position: absolute;
+        right: 132px;
+        //bottom: 122px;
+        span {
+            font-size:165%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+
+    .service-text-3 {
+        padding: 5px;
+        position: absolute;
+        right: 32px;
+        //bottom: 122px;
+        span {
+            font-size:165%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+
+    .service-text-4 {
+        padding: 5px;
+        position: absolute;
+        right: 113px;
+        //bottom: 102px;
+        span {
+            font-size:165%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+}
+}
+
+
+
+@include max-screen(1142px) {
+	.service {
+ 		span {
+ 			font-size:200%;
+ 		}
+ 		.service-logo {
+ 			img {
+				margin: 23px;
+ 			}
+ 		}
+
+	}
+}
+
+
+
+@include max-screen(1070px){
+	.service {
+ 		.service-text {
+			span {
+ 				font-size:170%;
+ 			}	
+ 		}
+
+ 		.service-logo {
+ 			img {
+				margin: 20px;
+ 			}
+ 		}
+	}
+	.best-price {
+    	margin: -100px auto 0 auto;
+	
+    	.best {
+    		width: 60%;
+   		}
+
+   		.price {
+    		width: 35%;
+    	}
+	}
+}
+
+// @include max-screen(990px) {
+// 	.service {
+//  		span {
+//  			font-size:134%;
+//  		}
+//  	}
+// 	.service-left {
+// 		padding-left: inherit;
+// 	}
+// }
+
+@include max-screen(990px) {
+	.up {
+        margin-top: -31px;
+    }
+    .visi {
+        display: block;
+    }
+    .service {
+ 		 .service-text-1 {
+        padding: 5px;
+        position: absolute;
+        right: 15px;
+        //bottom: 122px;
+        span {
+            font-size:160%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+
+        //margin-left: 7px;
+    }
+
+    .service-text-2 {
+        padding: 5px;
+        position: absolute;
+        right: 18px;
+        //bottom: 122px;
+        span {
+            font-size:160%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+
+    .service-text-3 {
+        padding: 5px;
+        position: absolute;
+        right: 5px;
+        //bottom: 122px;
+        span {
+            font-size:160%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+
+    .service-text-4 {
+        padding: 5px;
+        position: absolute;
+        right: 3px;
+        //bottom: 102px;
+        span {
+            font-size:160%;
+        }
+        margin-top: 40px;
+        display: inline-block;
+        //margin-left: 7px;
+    }
+
+ 	}
+	.service-left {
+		padding-left: inherit;
+	}
+}
+
+@include max-screen(915px) {
+    .up {
+        margin-top: -26px;
+    }
+
+    .footer {
+        li {
+            font-size:140%;
+            //padding: 2.5px;
+        }
+    }
+}
+
+@include max-screen(840px)
+{
+	.service {
+ 		.service-text {
+ 			span {
+ 				font-size:120%;
+ 			}
+ 		}
+ 	}
+	.best-price {
+    	margin: -100px auto 0 auto;
+
+    	.best {
+    		width: 60%;
+   		}
+
+   		.price {
+    		width: 35%;
+    	}
+	}
+}
+
+
+
+@include max-screen(767px) {
+	.visi {
+        display: none;
+    }
+    .visi2 {
+        display: none;
+    }
+
+    .up {
+        margin-top: 0px;
+    }
+
+    .up2 {
+        margin-top: 0px;
+    }
+
+    .space {
+        margin-top: -10px;
+    }
+
+    .description {
+        .visi3 {
+            display: block !important;
+        }
+        .visi4 {
+            display: block !important;
+        }
+        .span4 {
+            font-size: 220%;
+        }
+    }
+    .service {
+	   .service-left {
+			padding-left: 0px;
+		}
+        .service-right {
+            padding-left: 0px;
+        }
+ 		.service-text {
+ 			span {
+ 				text-align: center;
+ 				font-size:170%;
+ 			}
+ 		}	
+ 	
+        .service-text-1 {
+            padding: 5px;
+            position: absolute;
+            right: 10px;
+            //bottom: 122px;
+            span {
+                font-size:170%;
+            }
+            margin-top: 40px;
+            display: inline-block;
+
+        //margin-left: 7px;
+        }
+
+        .service-text-2 {
+            padding: 5px;
+            position: absolute;
+            right: 14px;
+            bottom: 95px;
+            span {
+                font-size:170%;
+            }
+            margin-top: 40px;
+            display: inline-block;
+        //margin-left: 7px;
+        }
+
+        .service-text-3 {
+            padding: 5px;
+            position: absolute;
+            right: -3px;
+        //bottom: 122px;
+            span {
+                font-size:170%;
+            }
+            margin-top: 40px;
+            display: inline-block;
+        //margin-left: 7px;
+        }
+
+        .service-text-4 {
+            padding: 5px;
+            position: absolute;
+            right: 4px;
+            bottom: 50px;
+            span {
+                font-size:170%;
+            }
+            margin-top: 40px;
+            display: inline-block;
+        //margin-left: 7px;
+        }
+
+        .logo-4 {
+            margin-bottom: 5px;
+        }
+
+ 	}
+
+    .footer {
+        .vertical-line {
+            display: none;
+        }
+
+        li {
+            font-size:200%;
+            padding: 2.5px;
+        }
+    }
+    .nan {
+        text-align: center;
+      .nantawan-nantana {
+            float: none;
+            padding: 10px 0px 23px 10px;
+        }
+    }
+}
+
+@include max-screen(689px) {
+	.best-price {
+    	margin: -100px auto 0 auto;
+	
+    	.best {
+    		width: 45%;
+   		}
+
+   		.price {
+    		width: 20%;
+    	}
+	}
+}
+
+@include max-screen(660px) {
+	.best-price {
+    	margin: -100px auto 0 auto;
+ 
+    	.best {
+    		width: 70%;
+   		}
+
+   		.price {
+    		width: 45%;
+    	}
+	}
+
+	.header {
+    	height: 30px;
+    	padding-left: 20px;
+    
+    	img {
+        	height: 16px;
+        	margin-bottom: 5px;
+    	}
+    	.web {
+        	p {
+            	font-size:100%;
+        	}
+    	}
+	}
+}
+@include max-screen(510px) {
+    .visi2 {
+        display: block;
+    }
+    .up2 {
+        margin-top: -31px;
+    }
+}
+
+@include max-screen(475px) {
+	
+}
+@include max-screen(450px) {
+
+    .header {
+    	height: 30px;
+    	padding-left: 7px;
+    	img {
+        	height: 12px;
+        	margin-bottom: 8px;
+    	}
+    
+        .tel {
+            margin-top: -5px;
+        }
+    	.web {
+        	p {
+            	font-size:100%;
+        	}
+    	}
+	}
+}
+
+@include max-screen(440px) {
+	
+}
+
+@include max-screen(412px) {
+
+}
+
+
+@include max-screen(400px) {
+	.service {
+        .service-left {
+            padding-left: inherit;
+        }
+        .service-right {
+            padding-left: inherit;
+        }
+
+       .service-logo 
+            {
+                margin: 40px 0px 0px 0px;
+                float: left;
+                width: 100%;
+                text-align: center;
+            }
+
+       .service-left {
+            padding-left: inherit;
+        }
+        .service-text-1 {
+            text-align: center;
+            margin-top: -4px;
+            //margin-left: 14px;
+            //width: 100vw;
+            right: auto;
+            position:static;
+            text-align: center;
+            bottom: -40px;
+            width: 100%;
+
+            span { 
+                font-size:175%;
+            }
+        }
+
+        .service-text-2 {
+            text-align: center;
+            margin-top: -4px;
+            //margin-left: 14px;
+            //width: 100vw;
+            right: auto;
+            position:static;
+            text-align: center;
+            bottom: -40px;
+            width: 100%;
+
+            span { 
+                font-size:175%;
+            }
+        }      
+
+        .service-text-3 {
+            text-align: center;
+            margin-top: -4px;
+           // margin-left: 14px;
+            //width: 100vw;
+            right: auto;
+            position:static;
+            text-align: center;
+            bottom: -40px;
+            width: 100%;
+
+
+            span { 
+                font-size:175%;
+            }
+        }      
+
+        .service-text-4 {
+            text-align: center;
+            margin-top: -4px;
+            //margin-left: 14px;
+            //width: 100vw;
+            right: auto;
+            position:static;
+            text-align: center;
+            bottom: -40px;
+            position: static;
+            width: 100%;
+
+
+            span { 
+                font-size:175%;
+            }
+        }             
+    }   
+
+    .best-price {
+    	margin: -100px auto 0 auto;
+
+    	.best {
+    		width: 80%;
+   		}
+
+   		.price {
+    		width: 55%;
+    	}
+	}
+
+    .footer {
+        li {
+            font-size:170%;
+        }
+    }
+
+
+}
+@include max-screen(337px) {
+	.visi {
+        display: block;
+    }
+    .header {
+    	padding-left: 7px;
+        img {
+            height: 9px;
+            margin-bottom: 8px;
+        }
+        .web {
+            p {
+                font-size:100%;
+            }
+        }
+	}
+    .up {
+        margin-top: -31px;
+    }
+    .best-price {
+        margin: -100px auto 0 auto;
+
+        .best {
+            width: 100%;
+        }
+
+        .price {
+            width: 55%;
+        }
+    
+        .description {
+            .span1 {
+                font-size:230%;
+            }
+            .visi3 {
+            display: block !important;
+            }
+            .visi4 {
+            display: block !important;
+            }
+        }
+    }
+
+    .service {
+       .service-logo {
+            span {
+                text-align: center;
+            }
+            img {
+
+                //border: 3px solid green;
+                //padding: 10px;
+            }
+        }
+       
+       .service-left {
+            padding-left: inherit;
+        }
+        .service-text {
+            text-align: center;
+            span { 
+                font-size:170%;
+                margin-left: 5px;
+            }
+        }       
+    
+        .service-name-1 {
+            bottom: -30px;
+            left: 100px;
+        }
+
+        .service-name-2 {
+            bottom: -30px;
+            left: 80px;
+        }
+
+        .service-name-3 {
+            bottom: -35px;
+            left: 80px;
+        }
+
+        .service-name-4 {
+            bottom: -60px;
+            left: 103px;
+        }   
+        .nantawan-nantana {
+            float: none;
+            padding: 10px  0px 10px 10px;
+        }
+    }  
+}
+

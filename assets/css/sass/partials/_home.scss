@@ -1,0 +1,177 @@
+.best-price {
+    display: block;
+    padding:0px 30px 30px 30px;
+    margin: -140px auto 0 auto;
+   	float: none;
+    img {
+    	align-content: center;
+    }
+    
+    .best {
+    	margin: 0 auto;
+    	float: none;
+    	width: 40%;
+    	max-width: 100%; 
+		display:block; 
+		height: auto;
+    }
+
+    .price {
+    	margin: 0 auto 10px auto;
+    	float: none;
+    	width: 20%;
+    	max-width: 100%; 
+		display:block; 
+		height: auto;
+		padding-top: 20px;
+    }
+}
+
+.description {
+	text-align: center;
+
+	.span1 {
+		font-size:250%;
+		font-weight: bold;
+		color: #000000;
+	}
+
+	.span2 {
+		font-size:310%;
+		font-weight: bold;
+		color: #007698;
+	}
+
+	.span3 {
+		font-size:290%;
+		font-weight: bold;
+		color: #007698;
+	}
+
+	.span4 {
+		font-size:230%;
+	}
+
+	.span5 {
+		font-size:250%;
+	}
+}
+
+.service {
+ 	.service-logo {
+ 		float: left;
+ 		position: relative;
+ 		margin-bottom:40px;
+ 		span {
+
+ 		}
+ 		img {
+			margin: 30px;
+			width: 95px;
+ 		}
+ 	}
+	
+	.service-text-1 {
+	 	padding: 5px;
+	 	position: absolute;
+	 	right: 74px;
+	 	bottom: 103px;
+	 	span {
+ 			font-size:200%;
+ 		}
+		margin-top: 40px;
+		display: inline-block;
+		//margin-left: 7px;
+	}
+
+	.service-text-2 {
+	 	padding: 5px;
+	 	position: absolute;
+	 	right: 195px;
+	 	bottom: 100px;
+	 	span {
+ 			font-size:200%;
+ 		}
+		margin-top: 40px;
+		display: inline-block;
+		//margin-left: 7px;
+	}
+
+	.service-text-3 {
+	 	padding: 5px;
+	 	position: absolute;
+	 	right: 55px;
+	 	bottom: 103px;
+	 	span {
+ 			font-size:200%;
+ 		}
+		margin-top: 40px;
+		display: inline-block;
+		//margin-left: 7px;
+	}
+
+	.service-text-4 {
+	 	padding: 5px;
+	 	position: absolute;
+	 	right: 172px;
+	 	bottom: 92px;
+	 	span {
+ 			font-size:200%;
+ 		}
+		margin-top: 40px;
+		display: inline-block;
+		//margin-left: 7px;
+	}
+
+	.nantawan-nantana {
+		float: right;
+		padding: 10px 0px 10px 10px;
+	}
+}
+
+.arrow-down
+{
+    margin-top: 40px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    opacity:.6;
+    z-index: 1 !important;
+}
+
+@-moz-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
